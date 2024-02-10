@@ -6,7 +6,7 @@ import './SearchBar.css';
 function SearchBar() {
 
   const [searchValue, setSearchValue] = useState('');
-
+  console.log(setSearchValue);
   return (
     <form className="search-bar">
       <input 
