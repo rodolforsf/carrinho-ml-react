@@ -5,13 +5,15 @@
   justify-content: center;
   padding: 5px;
   border: none;
-  border-color: none;
+  background: none;
+  cursor: pointer;
   position: relative;
   margin-left: 20px;
   color: #333;
 }
+
 .cart-status {
-  background-color: #333;
+  background-color: red;
   width: 15px;
   height: 15px;
   position: absolute;
